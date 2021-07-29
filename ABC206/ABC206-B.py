@@ -1,6 +1,7 @@
-a,b,c,d = map(int,input().split())
-num = -1
-diff = c*d-b
-if 0<diff:
-    num = (a+diff-1)//diff
-print(num)
+n=int(input())
+money = 0
+day = 0
+while money < n:
+    day+=1
+    money+=day
+print(day)
